@@ -7,9 +7,6 @@ TV Inside est un projet scolaire réalisé par mon groupe lors du marathon du we
 
 Le marathon du Web est un projet de l'IUT de Lens qui mixe les départements informatique et mmi (multimédia et internet) dans des équipes qui doivent produire un site web en 34h.
 
-Ce projet est tel que nous l'avons produit en 34h.
-
-
 # Lancer le site
 
 TV Inside est un projet basé sur le framework Laravel. 
