@@ -12,12 +12,27 @@ Ce projet est tel que nous l'avons produit en 34h.
 
 # Lancer le site
 
-TV Inside est projet basé sur le framework Laravel. Vous avez besoin d'avoir **php et composer ainsi que mySql** d'installer.
+TV Inside est un projet basé sur le framework Laravel. 
+Prérequis pour lancer le projet : **PHP, Wamp ainsi que Composer**.
 
-Pour lancer le site web en local, vous devez vous placer à la racine du projet, ensuite créer un fichier **.env** à la racine du projet en vous basant sur le **.env.example** et remplir la partie DB (connection,host,port,database,username et password).
+Pour lancer le site web en local, vous devez réer un fichier **.env** à la racine du projet en vous basant sur le **.env.example** et remplir la partie DB (connection, host, port, database, username et password).
 
-Maintenant vous pouvez lancer les commandes (sous Linux):
+Maintenant suivez ces instructions : 
 
-- "composer install" à lancer une seule fois.
-- "php artisan serve" à lancer à chaque fois que vous voulez lancer le site.
+**Sur votre PC : **
+
+- Démarrez Wamp (cet outil permettra de connecter le site à votre base de donnée).
+
+**Dans le terminal : **
+
+- "composer install" (à entrer une seule fois).
+- "php artisan migrate" (à entrer une seule fois).
+- "php artisan serve" (à entrer à chaque fois que vous voulez lancer le site).
+
+**Dans votre barre de recherche : **
+
+- "localhost:8000" (à entrer à chque fois que vous voulez accéder à votre site).
+
+
+Et voilà le tour est joué ! :D
 
