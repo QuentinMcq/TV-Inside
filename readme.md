@@ -29,9 +29,10 @@ Maintenant suivez ces instructions :
 - "php artisan migrate" (à entrer une seule fois).
 - "php artisan serve" (à entrer à chaque fois que vous voulez lancer le site).
 
-**Dans votre barre de recherche :**
+**Dans votre barre de recherche internet:**
 
 - "localhost:8000" (à entrer à chque fois que vous voulez accéder à votre site).
+
 
 
 Et voilà le tour est joué ! :D
