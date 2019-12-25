@@ -1,0 +1,582 @@
+/* Ici, votre style sera écrit */
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background: linear-gradient(#08546c, #022534) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: #022534;
+    z-index: 8;
+
+}
+
+nav div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .links{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .connexion {
+    align-items: center;
+}
+
+nav a{
+    margin-top: 1%;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #a0bacc;
+    border-bottom: solid 0.2rem #a0bacc;
+}
+
+.connexion{
+    padding-left: 50%;
+    padding-right: 10%;
+}
+
+div#caroussel{
+    padding-top: 5%;
+    margin: auto;
+    width: 60%;
+    max-width: 60rem;
+    height: 80%;
+    overflow: hidden;
+}
+div#caroussel figure img{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+div#caroussel figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 10s slidy infinite;
+}
+
+@keyframes slidy {
+    0%{left: 0%;}
+    10%{left: 0%;}
+    20%{left: -104%;}
+    35%{left: -104%;}
+    40%{left: -204%;}
+    50%{left: -204%;}
+    65%{left: -304%;}
+    85%{left: -304%;}
+    100%{left: -404%;}
+}
+
+
+
+
+
+
+
+.series-filtrage{
+    color: white;
+    text-align: center;
+}
+
+.series-filtrage h3{
+    margin-top: 3%;
+    font-size: 3rem;
+    font-family: 'Roboto';
+    font-weight: lighter;
+}
+
+.series-filtrage form label select{
+    height: 3rem;
+    width: 10%;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    background-color: white;
+    border: none;
+    color: #08546c;
+}
+
+.series-filtrage .recherche{
+    width: 7%;
+    background-color: white;
+    border-radius: 3rem;
+    color: #08546c;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.recherche i{
+    padding-right: 6%;
+}
+
+.parent1 {
+    background: #022534;
+    min-height: 240vh;
+    padding: 3rem;
+    position: relative;
+    margin-top: 15%;
+}
+
+.parent1::before {
+    content: '';
+    position: absolute;
+    bottom: 98%;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background: url('/img/wave.svg') no-repeat;
+    background-size: 100%;
+}
+
+.enfant {
+    position: absolute;
+}
+
+.series-filtrage form input{
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: white;
+    color: #08546c;
+}
+
+.series-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    list-style-type: none;
+    padding: 5%;
+ }
+
+.series-grid a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.series-grid li {
+    text-align: center;
+}
+
+.nom-serie{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.titre1 {
+    color: white;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 7%;
+    position: relative;
+    text-indent: 2vh;
+    z-index: 1;
+
+    font-family: 'Playfair', serif;
+
+}
+
+.titre1:before{
+    content:'';
+    position: absolute;
+    height: 0.2rem;
+    right: 40%;
+    left: 40%;
+    bottom: -10%;
+    background-color: #a0bacc;
+    margin-top: 5%;
+}
+/*
+body{
+    background: url('../img/Waveeffect_Plan de travail 1.png') no-repeat;
+    background-size: 100%;
+}
+*/
+.series-grid img {
+    background: #2a2a2a;
+    box-shadow: 3px 3px 10px black;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.series-grid img:hover {
+    opacity: .5;
+}
+
+.bouton-retour a{
+    font-size: 3rem;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    background-color: #08546c;
+    padding: 1rem 4rem;
+    border-radius: 3rem;
+    transition: .5s ease-in-out;
+}
+
+.bouton-retour a:hover{
+    border-radius: 0rem;
+}
+
+
+body{
+    background: linear-gradient(#08546c, #022534) no-repeat ;
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
+    background-size: 100%;
+
+}
+
+.information-series{
+    text-align: center;
+}
+
+.information-series h2{
+    text-indent: 2vh;
+    color: white;
+    letter-spacing: 2rem;
+    font-family: 'Playfair',serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    padding-top: 3%;
+    position: relative;
+}
+
+.information-series h2:before{
+    content: '';
+    position: absolute;
+    height: 0.2rem;
+    right: 45%;
+    left: 45%;
+    bottom: -10%;
+    background-color: #a0bacc;
+}
+
+.information-series img {
+    margin: auto;
+    margin-top: 2%;
+    box-shadow: 8px 8px 5px black;
+}
+
+.date{
+    margin-bottom: 3%;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+.information-series b{
+    padding: 0.3%;
+    background-color: #08546c;
+    font-size: 2rem;
+    font-family: 'Roboto',sans-serif;
+    border-radius: 2rem;
+    color: white;
+    border: groove 0.2rem #a0bacc;
+}
+
+.information-contenu{
+    padding-top: 3%;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+
+.information-saisons{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    word-spacing: 2rem;
+
+}
+
+.information-saisons a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2%;
+    font-family: 'Roboto';
+}
+
+.information-saisons a:hover{
+    border-bottom: solid 0.2rem #a0bacc;
+    color: #a0bacc;
+}
+
+.information-statut{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.information-avis{
+    padding-top: 3%;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: justify;
+}
+
+.information-contenu p{
+    width: 75%;
+    margin: auto;
+    line-height: 3rem;
+    font-weight: lighter;
+}
+
+.information-avis p{
+    width: 75%;
+    margin: auto;
+    line-height: 3rem;
+    font-weight: lighter;
+}
+
+.information-avis h3{
+    width: 75%;
+    margin: auto;
+    line-height: 3rem;
+    /*font-weight: lighter;*/
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.information-langue{
+    font-weight: normal;
+}
+
+.commentaires p{
+    font-size: 3rem;
+}
+
+.commentaires ul{
+    width: 75%;
+    margin: auto;
+}
+.commentaires li{
+    list-style: none;
+    background-color: rgba(160,186,204,0.2);
+    margin: 2% 0%;
+    border-radius: 2rem;
+    padding: 2% 1%;
+    text-align: left;
+    font-weight: lighter;
+}
+.commentaires a{
+    color: white;
+    text-decoration: none;
+}
+
+.information-retour a{
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    background-color: #08546c;
+    padding: 0.5%;
+    color: white;
+    border-radius: 2rem;
+    border: groove 0.2rem #a0bacc;
+}
+
+.bouton-retour {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.information-retour{
+    /*position: absolute;*/
+    bottom: 0;
+    margin-bottom: 5%;
+    /*margin: 0 auto;*/
+    margin-left: 45%
+}
+
+.information-retour a:hover{
+    color: #a0bacc;
+}
+
+.liste-genres ul{
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    text-align: center;
+}
+
+.liste-genres ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+
+.liste-genres li {
+    list-style: none;
+    font-size: 2.3rem;
+}
+
+.liste-genres li a:hover {
+    color: #a0bacc;
+}
+
+.nom-liste {
+    color: white;
+    font-size: 3rem;
+}
+
+.height-auto {
+    height: auto;
+}
+
+
+.links > a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+.links img {
+    width: 10rem;
+}
+
+.nom-genre {
+    color: white;
+    font-size: 3rem;
+    padding-left: 2%;
+}
+
+.liste ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10rem;
+    padding: 0 10%;
+}
+
+.liste li img {
+    padding-bottom: 5%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.liste li img:hover {
+    color: #a0bacc;
+    opacity: 0.5;
+}
+
+.liste li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.1rem;
+    padding-left: 2%;
+}
+
+.liste li {
+    list-style: none;
+    padding-bottom: 2%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.bouton-retour-liste {
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    background-color: #08546C;
+    border-radius: 4rem;
+    padding: 1.2rem;
+}
+
+.div-bouton-retour-liste {
+    text-align: center;
+    padding: 5rem;
+}
+
+.title-accueil {
+    padding-top: 10rem;
+    font-size: 8rem;
+    text-align: center;
+    font-family: 'Playfair', serif;
+    color: white;
+    position: relative;
+}
+
+.title-accueil:before {
+    content:'';
+    position: absolute;
+    height: 0.2rem;
+    right: 20%;
+    left: 20%;
+    bottom: -10%;
+    background-color: #a0bacc;
+    margin-top: 5%;
+}
+
+.grid-accueil {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 2rem;
+    color: #fff;
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 5%;
+}
+
+.texte1 {
+    text-align: left;
+    padding-right: 40%;
+    line-height: 2rem;
+    color: white;
+}
+
+.texte1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.texte1 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+#main{
+    padding-top: 40rem;
+    margin-top: -40rem;
+    min-height: 100vh;
+}
+
+.texte2 a {
+    color: #fff;
+}
