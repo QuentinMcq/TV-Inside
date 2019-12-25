@@ -19,17 +19,17 @@ Pour lancer le site web en local, vous devez réer un fichier **.env** à la rac
 
 Maintenant suivez ces instructions : 
 
-**Sur votre PC : **
+**Sur votre PC :**
 
 - Démarrez Wamp (cet outil permettra de connecter le site à votre base de donnée).
 
-**Dans le terminal : **
+**Dans le terminal :**
 
 - "composer install" (à entrer une seule fois).
 - "php artisan migrate" (à entrer une seule fois).
 - "php artisan serve" (à entrer à chaque fois que vous voulez lancer le site).
 
-**Dans votre barre de recherche : **
+**Dans votre barre de recherche :**
 
 - "localhost:8000" (à entrer à chque fois que vous voulez accéder à votre site).
 
