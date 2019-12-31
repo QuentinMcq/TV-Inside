@@ -4,6 +4,8 @@ Projet dans lequel nous devions créer un site web de gestion de séries, qui pe
 
 Projet scolaire réalisé en groupe de huit personnes lors du marathon du web en Décembre 2019.
 
+_Technologies utilisées_ : **PHP, Laravel, Eloquent, Blade, HTML, CSS** et **GitLab**.
+
 Le marathon du Web est un projet de l'IUT de Lens qui mixe les départements informatique et mmi (multimédia et internet) dans des équipes qui doivent produire un site web en 34h.
 
 # Lancer le site
