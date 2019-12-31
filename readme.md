@@ -29,7 +29,3 @@ Maintenant suivez ces instructions :
 
 - "localhost:8000" (à entrer à chaque fois que vous voulez accéder à votre site).
 
-
-
-Et voilà le tour est joué ! :D
-
