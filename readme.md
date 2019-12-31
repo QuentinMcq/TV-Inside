@@ -28,7 +28,7 @@ Maintenant suivez ces instructions :
 
 **Dans votre barre de recherche internet:**
 
-- "localhost:8000" (à entrer à chque fois que vous voulez accéder à votre site).
+- "localhost:8000" (à entrer à chaque fois que vous voulez accéder à votre site).
 
 
 
