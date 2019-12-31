@@ -1,9 +1,8 @@
 # TV Inside
 
-TV Inside est un site web de gestion de séries, qui permet aux utilisateurs de voir des résumés de séries, mettre des commentaires, et lire les avis de la rédaction.
+Projet dans lequel nous devions créer un site web de gestion de séries, qui permet aux utilisateurs de voir des résumés de séries, mettre des commentaires, et lire les avis de la rédaction.
 
-
-TV Inside est un projet scolaire réalisé par mon groupe lors du marathon du web 2019.
+Projet scolaire réalisé en groupe de huit personnes lors du marathon du web en Décembre 2019.
 
 Le marathon du Web est un projet de l'IUT de Lens qui mixe les départements informatique et mmi (multimédia et internet) dans des équipes qui doivent produire un site web en 34h.
 
