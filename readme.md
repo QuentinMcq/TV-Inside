@@ -4,7 +4,7 @@ Projet dans lequel nous devions créer un site web de gestion de séries, qui pe
 
 Projet scolaire réalisé en groupe de huit personnes lors du marathon du web en Décembre 2019.
 
-_Technologies utilisées_ : **PHP, Laravel, Eloquent, HTML/CSS**.
+_Technologies utilisées_ : **PHP, Laravel, Bootstrap, HTML/CSS**.
 
 Le marathon du Web est un projet de l'IUT de Lens qui mixe les départements informatique et mmi (multimédia et internet) dans des équipes qui doivent produire un site web en 34h.
 
@@ -13,7 +13,7 @@ Le marathon du Web est un projet de l'IUT de Lens qui mixe les départements inf
 TV Inside est un projet basé sur le framework Laravel. 
 Prérequis pour lancer le projet : **PHP, Wamp ainsi que Composer**.
 
-Pour lancer le site web en local, vous devez réer un fichier **.env** à la racine du projet en vous basant sur le **.env.example** et remplir la partie DB (connection, host, port, database, username et password).
+Pour lancer le site web en local, vous devez créer un fichier **.env** à la racine du projet en vous basant sur le **.env.example** et remplir la partie DB (connection, host, port, database, username et password).
 
 Maintenant suivez ces instructions : 
 
